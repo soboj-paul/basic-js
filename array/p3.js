@@ -1,7 +1,7 @@
 const number = [20, 12, 14, 54, 45, 24];
 console.log(number);
-const deleted = number.pop(); // remove last num
+const deleted = number.shift(); // remove last num
 console.log(deleted); // return remove num
 console.log(number);
-number.push(100); // add 100 num 
+number.unshift(0); // add 100 num 
 console.log(number);
