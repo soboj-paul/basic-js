@@ -1,6 +1,5 @@
 /**
- * array pactics //start 
- * array conceptcual section
+ * array conceptcual section // start 
  * functiona pactics
  * function conceptcual section
  * object & string pactics
