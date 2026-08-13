@@ -6,7 +6,11 @@
 let strToArr = 'Javascript';
 let arrToStr = ['C', 'a', 't'];
 let convert = '';
-for(let i=0 ; i<arrToStr.length ; i--){
-     convert.push(i);
+let convertStr = strToArr.split("")
+console.log(convertStr)
+// console.log(arrToStr.join(" "))
+for( let i=0; i<arrToStr.length; i++){
+     // convert.push(arrToStr[i]); // not working because push methort only use for array not string 
+     convert += arrToStr[i]
 }
 console.log(convert);

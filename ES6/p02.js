@@ -13,7 +13,7 @@
 // }
 
 const bookTicket = (movie, seats = 1 , pricePerSeat = 300) => {
-   return typeof movie !== 'string' ? 'Invalid': typeof seats !== 'number' ? 'Invalid': typeof pricePerSeat !== 'number'? 'Invalid' : `${movie} : ${seats} seat(s) , total ${seats * pricePerSeat}৳`;
+   return typeof movie !== 'string' ? 'Invalid': typeof seats !== 'number' || seats<0 ? 'Invalid': typeof pricePerSeat !== 'number' || pricePerSeat < 0? 'Invalid' : `${movie} : ${seats} seat(s) , total ${seats * pricePerSeat}৳`;
 
 }
-console.log(bookTicket( 'dunki',123, 2))
+console.log(bookTicket( 'dunki',123, '2'))
