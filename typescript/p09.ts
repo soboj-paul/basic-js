@@ -3,3 +3,4 @@
 // username = undefined
 // Output:
 // Guest
+function defaultValue()
